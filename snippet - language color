@@ -1,0 +1,86 @@
+
+CSS
+.card {
+background-color: #E5E8E8;
+}
+
+.cabeçalho {
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+font-family:helvetica;
+text-shadow: 2px 2px 3px #3B3910;
+letter-spacing: 2px;
+font-weight: bold;
+font-size: 35px;
+color: #FFF;
+width: auto;
+text-align: center;
+padding: 20px;
+border-radius: 7px 7px 0px 0px;
+box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+background:#00BFFF;
+box-sizing: border-box;
+top: 0;
+right: 0;
+background: linear-gradient(to bottom, #fff, #fff 33.33%, #0039a6 33.33%, #0039a6 66.66%, #d52b1e 66.66%);
+}
+
+.pergunta {
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+font-family: calibri;
+font-size: 30px;
+color: #2C3E50;
+text-align: justify;
+height: auto;
+width: auto;
+padding: 30px 30px ;
+box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+background-color: #FFF;
+box-sizing: border-box;
+border-radius: 0px 0px 7px 7px;
+}
+
+.resposta {
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+font-family: helvetica;
+height: auto;
+width: auto;
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+color: #000000;
+padding: 10px;
+background-color: #FFF;
+box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+box-sizing: border-box;
+border-top-style: solid;
+border-color: #D6DBDF;;
+border-width: 1px;
+border-radius: 7px 7px 7px 7px;
+}
+
+.justificativa {
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+font-family: calibri;
+font-size: 20px;
+color: #000000;
+
+text-align: justify;
+height: auto;
+width: auto;
+padding: 30px 30px;
+margin-top: 40px;
+box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+background-color: #FFF;
+box-sizing: border-box;
+border-radius: 7px 7px 7px 7px;
+
+}
+
