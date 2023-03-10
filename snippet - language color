@@ -1,5 +1,48 @@
+<--!HTML Front-->
+<div class=cabeçalho>
+    <div class="listras"></div>
+ 		RUSSO 🇷🇺
+</div>
 
-CSS
+<div class=pergunta>
+
+		{{edit:Pergunta}}
+
+<div class="dica"></div>
+
+</div>
+
+<div class=tags>
+
+tags: {{Tags}}
+
+</div>
+
+===============================================================================================================
+
+<--HTML & JS Back-->
+{{FrontSide}}
+{{#Justificativa}}<div class=justificativa>{{edit:Justificativa}}
+
+</div>{{/Justificativa}}
+
+<div <span class="resposta">{{edit:Exemplos}}</span>
+<script>
+fields = document.querySelectorAll('.resposta');
+for(var i=0; i<fields.length; i++) {
+fields[i].innerHTML = fields[i].innerHTML
+.replace('Certo', '<span style="color: #16A085">CERTO</span>')
+.replace('certo', '<span style="color: #16A085">CERTO</span>')
+.replace('Errado', '<span style="color: #C0392B">ERRADO</span>')
+.replace('errado', '<span style="color: #C0392B">ERRADO</span>')
+}
+</script>
+</div>
+
+===============================================================================================================
+
+<!--CSS-->
+
 .card {
 background-color: #E5E8E8;
 }
@@ -9,7 +52,7 @@ position: relative;
 left: 50%;
 transform: translateX(-50%);
 font-family:helvetica;
-text-shadow: 2px 2px 3px #3B3910;
+text-shadow: 2px 3px 3px #000000;
 letter-spacing: 2px;
 font-weight: bold;
 font-size: 35px;
@@ -82,5 +125,21 @@ background-color: #FFF;
 box-sizing: border-box;
 border-radius: 7px 7px 7px 7px;
 
+}
+
+.tags {
+  background-color: #FF0000;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 1px 1px #000000;
+  font-size: 15px;
+  margin: 2px;
+  padding: 2px 5px;
+  text-align: center;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  font-size: 0.9em;
 }
 
